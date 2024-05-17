@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import Student from "./Student.js";
-import Choice from "inquirer/lib/objects/choice.js";
 import chalk from "chalk";
 let history: any = [];
 let courses = {
